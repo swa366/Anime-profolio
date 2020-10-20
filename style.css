@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.a {
+    height: 100vh;
+}
+
+
+.image{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+
+/* css for top container  */
+
+.main-image {
+    height: 100vh;
+    width: 40vw;
+    background: url(../assests/saskue2.jpg) no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    right: 20%;
+}
+
+.title {
+    position: relative;
+    height: 100vh;
+    color: white;
+    z-index: 3;
+}
+
+.info {
+    position: absolute;
+    top: 50%;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+
+ul {
+    list-style-type: none;
+    margin: 2%;
+    padding: 2%;
+  }
+  
+  li {
+    float:left;
+  }
+
+  li:hover{
+      background-color: brown;
+  }
+
+  li a{
+    display: inline;
+    padding: 8px;
+    color: black;
+    height: 20%;
+    background-color:transparent;
+  }
+
+
+@media only screen and (max-width: 768px) {
+    .main-image {
+        position: absolute;
+        right: 0;
+        height: 100vh;
+        width: 80vw;
+    }
+    .image{
+       width: 1000px;
+       height: 200px;
+    }
+
+}
+
+
+
+
+
+/* css for second main container */
+
+.aboutme {
+    background-color: white;
+    padding: 30px;
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+ 
+.btn{
+    margin: 2%;
+    width: 10%;
+    height:200%;
+}
+
+.btn:hover{
+    background-color: cornflowerblue;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .aboutme {
+        padding: 10px;
+        position: relative;
+        top: 20%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutme {
+        padding: 10px;
+        position: relative;
+        top: 10%;
+    }
+}
+
+
+/* css for third container */
+
+
+.third-container h1 {
+    position: relative;
+    top: 30%;
+    text-align: center;
+    color:black;
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 4em;
+
+}
+
+.column {
+    float: right;
+    width: 30%;
+    padding: 21px;
+    height: 100px; 
+}
+
+
+@media only screen and (max-width: 768px) {
+    .column {
+        padding: 25px;
+        width: 130px;
+        float: left;
+
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    .column {
+        height: 250px;
+        padding: 15px;
+    }
+    .third-container h1 {
+        position: relative;
+        top: 10%;
+        text-align: center;
+        font-family: 'Zhi Mang Xing', cursive;
+        font-size: 3em;
+    }
+}
+
+.contact {
+    margin: 20%;
+}
+
+.btn-btn{
+    margin: 2%;
+    width: 15%;
+}
+
+.btn-btn:hover{
+    background-color: brown;
+}
+
+.choose{
+    margin: 10%;
+}
+
+hr{
+    margin: 5%;
+    height: 40%;
+}
